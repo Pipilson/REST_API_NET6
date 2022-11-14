@@ -1,0 +1,12 @@
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\bin\Debug\net7.0\BuberEats.Contracts.deps.json
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\bin\Debug\net7.0\BuberEats.Contracts.dll
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\bin\Debug\net7.0\BuberEats.Contracts.pdb
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.csproj.AssemblyReference.cache
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.AssemblyInfoInputs.cache
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.AssemblyInfo.cs
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.dll
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\refint\BuberEats.Contracts.dll
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\BuberEats.Contracts.pdb
+C:\Users\pietr\Downloads\Cursos\FreeCodeCamp\REST_API_NET6\BuberEats\BuberEats.Contracts\obj\Debug\net7.0\ref\BuberEats.Contracts.dll
