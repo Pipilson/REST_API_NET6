@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberEats.Contracts", "BuberEats.Contracts\BuberEats.Contracts.csproj", "{4BC20A28-27DD-4559-824B-7D656C74FECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberEats", "BuberEats\BuberEats.csproj", "{DD574E24-E298-4AD2-B08B-FB8F8F48C377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC20A28-27DD-4559-824B-7D656C74FECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC20A28-27DD-4559-824B-7D656C74FECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC20A28-27DD-4559-824B-7D656C74FECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC20A28-27DD-4559-824B-7D656C74FECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD574E24-E298-4AD2-B08B-FB8F8F48C377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD574E24-E298-4AD2-B08B-FB8F8F48C377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD574E24-E298-4AD2-B08B-FB8F8F48C377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD574E24-E298-4AD2-B08B-FB8F8F48C377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
