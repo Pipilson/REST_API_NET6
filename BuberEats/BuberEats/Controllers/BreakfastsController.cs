@@ -4,10 +4,40 @@ using Microsoft.AspNetCore.Mvc;
 
 public class BreakfastsController : ControllerBase
 {
+    private readonly IBreakfastService _breakfastService;
+    
+    public BreakfastsController(IBreakfastService breakfastService)
+    {
+        _breakfastService = breakfastService;
+    }
+
     [HttpPost("/breakfasts")]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
-        return Ok(request);
+        var breakfast = new Breakfast(
+            Guid.NewGuid(),
+            request.Name,
+            request.Description,
+            request.StartDateTime,
+            request.EndDateTime,
+            DateTime.UtcNow,
+            request.Savory,
+            request.Sweet);
+
+        var response = new BreakfastResponse(
+            breakfast.Id,
+            breakfast.Name,
+            breakfast.Description,
+            breakfast.StartDateTime,
+            breakfast.EndDateTime,
+            breakfast.LastModifiedDateTime,
+            breakfast.Savory,
+            breakfast.Sweet);
+
+        return CreatedAtAction(
+            nameof(GetBreakfast),
+            new {id = breakfast.Id},
+            response);
     }
 
     [HttpGet("/breakfasts/{id:guid}")]
@@ -27,4 +57,8 @@ public class BreakfastsController : ControllerBase
     {
         return Ok(id);
     }
+}
+
+internal interface IBreakfastService
+{
 }
